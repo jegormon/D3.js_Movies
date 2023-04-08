@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>d3.js</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <svg id="container" width="250" height="100" style="border: 1px dashed">
+      <rect />
+      <rect />
+      <rect />
+      <rect />
+      <rect />
+    </svg>
+    <svg id="flowers" width="330" height="100" style="border: 1px dashed">
+      <path
+        d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+        transform="translate(35, 0)"
+      />
+      <path
+        d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+        transform="translate(100, 0)"
+      />
+      <path
+        d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+        transform="translate(165, 0)"
+      />
+      <path
+        d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+        transform="translate(230, 0)"
+      />
+      <path
+        d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+        transform="translate(295, 0)"
+      />
+    </svg>
+    <svg id="dynamic" width="250" height="100" style="border: 1px dashed"></svg>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

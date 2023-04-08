@@ -1,0 +1,24 @@
+<svg width="100px" height="100px">
+    <rect
+    width="100px"
+    height="100px"
+    fill="none"
+    outline="4
+    px"
+    stroke="rgb(0,0,0)"></rect>
+    <path
+    class="flower"
+    d="M0, 0 C50,60 25,90 20,100 l -20 -20 M0,80 l -20 20 C-50,40 0,10 0,0"
+    outline="4px"
+    fill="green"
+    stroke="rgb(0,0,0)"
+    transform="translate(50, 0)"></path>
+    <circle
+    cx="0"
+    cy="0"
+    r="4"
+    stroke="black"
+    stroke-width=".3"
+    transform="translate(50, 0)"
+    fill="red" /> 
+</svg> 

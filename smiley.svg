@@ -1,0 +1,28 @@
+<svg width="100px" height="100px" fill="black">
+    <rect
+    width="100px"
+    height="100px"
+    fill="none"
+    outline="4
+    px"
+    stroke="rgb(0,0,0)"></rect>
+    <circle
+    r="40"
+    fill="yellow"
+    outline="4px"
+    stroke="rgb(0,0,0)"
+    transform="translate(50, 50)"
+    ></circle>
+    <path
+    class="Eyes"
+    d="M38 30, L38, 50, M62 30, L62, 50 "
+    outline="4px"
+    stroke="rgb(0,0,0)"
+    fill="none"></path>
+    <path
+    class="Mouth"
+    d="M30, 60 C35, 75 60, 80  70,60"
+    outline="4px"
+    stroke="rgb(0,0,0)"
+    fill="none"></path>
+</svg> 
